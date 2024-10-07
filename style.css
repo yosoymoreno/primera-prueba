@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f6d5b8;
+    color: #442f2f;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #a7a093; 
+    color: #2e333f;
+    padding: 20px;
+    text-align: center;
+}
+/* Estilos para los botones en la navegación */
+nav a {
+    color: #fff;
+    background-color: #ebd5ae;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    background-color: #fcf5be;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #1f2501;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #232c3a; 
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 30%;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #d1ccc0;
+    color: #2f3542;
+    text-align: center;
+    padding: 1%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+a:hover {
+    color: #70a1ff; 
+}
+#discord-invitacion {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #7289da; /* Color característico de Discord */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: white;
+}
+
+#discord-invitacion h2 {
+    color: white;
+}
+
+#discord-invitacion p {
+    margin-bottom: 20px;
+}
+
+.discord-boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5865F2; /* Azul de Discord */
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.discord-boton:hover {
+    background-color: #4752c4; /* Color más oscuro al hacer hover */
+}
