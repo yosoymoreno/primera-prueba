@@ -246,3 +246,8 @@ img {
 .discord-boton:hover {
     background-color: #4752c4;
 }
+
+.article-container {
+    width: 6%; /* Ajusta el ancho según sea necesario */
+    margin: 0 auto; /* Centra el contenedor */
+}
